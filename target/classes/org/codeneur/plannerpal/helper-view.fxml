@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="950.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.codeneur.plannerpal.controllers.HelperController">
+   <children>
+      <Label fx:id="helpLabel" alignment="TOP_LEFT" prefHeight="447.0" prefWidth="946.0" text="Label" />
+   </children>
+</VBox>

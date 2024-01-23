@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="1150.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.codeneur.plannerpal.controllers.MainViewController">
+   <top>
+      <FlowPane BorderPane.alignment="CENTER">
+         <children>
+            <HBox prefHeight="55.0" prefWidth="1054.0">
+               <children>
+                  <Label alignment="CENTER" prefHeight="71.0" prefWidth="200.0" text="Planner Pal">
+                     <font>
+                        <Font name="Consolas Bold" size="28.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <Button fx:id="helpBtn" mnemonicParsing="false" text="Help" />
+         </children>
+      </FlowPane>
+   </top>
+   <left>
+      <VBox prefHeight="482.0" prefWidth="189.0" spacing="5.0" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets left="2.0" />
+         </BorderPane.margin>
+         <children>
+            <Button fx:id="addBtn" alignment="CENTER" mnemonicParsing="false" prefHeight="30.0" prefWidth="190.0" text="Add +" textFill="#eaeaea" />
+            <ListView fx:id="listView" prefHeight="414.0" prefWidth="180.0" />
+            <Button fx:id="exitBtn" alignment="CENTER" mnemonicParsing="false" prefHeight="30.0" prefWidth="190.0" text="Exit" textFill="#eaeaea">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+   </left>
+</BorderPane>
